@@ -1,0 +1,20 @@
+$(document).ready(function(){
+	$(".container-pc").hide();
+	$(".container-phone").show();
+	$(".container-phone").css('width','425px');
+	$("#b1").click(function(){
+		$(this).css('background','#de6b62');
+		$("#b2").css('background','orange');
+		$(".container-phone").css('width','425px');
+		$(".container-pc").hide();
+		$(".container-phone").show();
+	});
+
+	$("#b2").click(function(){
+		$(this).css('background','#de6b62');
+		$("#b1").css('background','orange');
+		$(".container-pc").css('width','1510px')
+		$(".container-pc").show();
+		$(".container-phone").hide();
+	});
+});

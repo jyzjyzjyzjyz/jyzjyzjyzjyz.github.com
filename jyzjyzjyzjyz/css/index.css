@@ -1,0 +1,12 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2022-05-10 14:58:08
+ * @version $Id$
+ */
+button{
+display: block;
+width: 500px;
+height: 100px;
+}

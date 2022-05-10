@@ -1,0 +1,271 @@
+body{
+	margin: 0;
+}
+
+div{
+	display: block;
+}/*取消小圆点*/
+
+
+
+li{
+	list-style: none;
+}
+
+.m-bg{
+	position: absolute;/*变成一个图层*/
+	width: 1063px;
+	height: 544px;
+	background:url('../img/bk.jpg');
+    opacity: .4;/*透明度*/
+}
+
+
+.m-menu{
+	font-size: 12px;/*字体大小*/
+	font-weight: bold;/*加粗*/
+	padding: 15px 65px;/*上面留空 左边留空*/
+	letter-spacing: 0.6px;/*字母之间留空*/
+
+}
+
+.m-item_name+.m-item_name{
+	margin-left: 18px;
+	margin-right: 2px;
+}
+
+
+
+.m-text1_1{
+	position: absolute;
+	font-size: 12.5px;
+	padding: 23.5px 33px;
+	letter-spacing: 0.3px;/
+
+}
+.m-text1_2{
+	position: absolute;
+	font-size: 18.5px;
+	font-weight: bold;
+	padding: 43px 33px;
+	letter-spacing: -0.05px;
+}
+
+.m-text1_3{
+	position: absolute;
+	font-size: 13px;
+	padding: 75px 33px;
+	letter-spacing: 0.15px;
+}
+
+.m-text1_4{
+	position: absolute;
+	font-size: 11px;
+	padding: 108px 33px;
+	letter-spacing: 0.05px;
+}
+
+.m-text1_5{
+	position: absolute;
+	font-size: 10px;
+	padding: 129px 33px;
+	letter-spacing: 0.1px;
+}
+
+.m-text2_1{
+	position: absolute;
+	font-size: 12.5px;
+	padding: 195px 33px;
+	letter-spacing: 0.3px;/
+
+}
+.m-text2_2{
+	position: absolute;
+	font-size: 18.5px;
+	font-weight: bold;
+	padding: 214.5px 33px;
+	letter-spacing: -0.1px;
+}
+
+.m-text2_3{
+	position: absolute;
+	font-size: 13px;
+	padding: 246.5px 33px;
+	letter-spacing: 0.1px;
+}
+
+.m-text2_4{
+	position: absolute;
+	font-size: 10.5px;
+	padding: 279.5px 33px;
+	letter-spacing: 0.2px;
+}
+
+.m-text2_5{
+	position: absolute;
+	font-size: 10px;
+	padding: 300.5px 33px;
+	letter-spacing: 0.1px;
+}
+
+.m-text3_1{
+	position: absolute;
+	font-size: 12.5px;
+	padding: 365px 33px;
+	letter-spacing: 0.3px;/
+
+}
+.m-text3_2{
+	position: absolute;
+	font-size: 18.5px;
+	font-weight: bold;
+	padding: 385.5px 33px;
+	letter-spacing: 0.1px
+}
+
+.m-text3_3{
+	position: absolute;
+	font-size: 13px;
+	padding: 416.5px 33px;
+	letter-spacing: 0.1px;
+}
+
+.m-text3_4{
+	position: absolute;
+	font-size: 10.5px;
+	padding: 449.5px 33px;
+	letter-spacing: 0.1px;
+}
+
+.m-text3_5{
+	position: absolute;
+	font-size: 10px;
+	padding: 470.5px 33px;
+	letter-spacing: 0.1px;
+}
+
+.img-name1{
+	position:absolute; 
+	left: 538px;
+	top: 69px;
+}
+.img-name2{
+	position:absolute; 
+	left: 538px;
+	top: 239px;
+}
+.img-name3{
+	position:absolute; 
+	left: 538px;
+	top: 409px;
+}
+.m-rtext{
+	position: absolute;
+	top: 101.5px; 
+	left: 770px;
+	font-size: 18px;
+	letter-spacing: 0.15px;
+	font-weight: bold;
+}
+
+.m-rtext1_1{
+	position: absolute;
+	padding: 130px 770px;
+	font-size: 25px;
+	letter-spacing: 0.2px;
+	font-weight: bold;
+	opacity: .4;
+}
+
+.m-rtext1_2{
+	position: absolute;
+	top: 179px;
+	left: 814px;
+	font-size: 14px;
+	letter-spacing: 0.15px;
+	font-weight: bold;
+}
+
+.m-rtext1_3{
+	position: absolute;
+	top: 245px;
+	left: 814px;
+	font-size: 12.5px;
+	letter-spacing: 0.1px;
+}
+
+.m-rtext1_4{
+	position: absolute;
+	top: 265px;
+	left: 814px;
+	font-size: 12.5px;
+	letter-spacing: 0.2px;
+}
+
+.m-rtext2_1{
+	position: absolute;
+	padding: 260px 770px;
+	font-size: 25px;
+	letter-spacing: 0.2px;
+	font-weight: bold;
+	opacity: .4;
+}
+
+.m-rtext2_2{
+	position: absolute;
+	top: 308.5px;
+	left: 815px;
+	font-size: 14px;
+	letter-spacing: 0.1px;
+	font-weight: bold;
+}
+
+.m-rtext2_3{
+	position: absolute;
+	top: 373px;
+	left: 817px;
+	font-size: 13px;
+	letter-spacing: 0.14px;
+}
+
+.m-rtext2_4{
+	position: absolute;
+	top: 393px;
+	left: 817px;
+	font-size: 12px;
+	letter-spacing: 0.1px;
+}
+
+.m-rtext3_1{
+	position: absolute;
+	padding: 388px 770px;
+	font-size: 25px;
+	letter-spacing: 0.2px;
+	font-weight: bold;
+	opacity: .4;
+}
+
+.m-rtext3_2{
+	position: absolute;
+	top: 437px;
+	left: 817px;
+	font-size: 14px;
+	letter-spacing: 0.2px;
+	font-weight: bold;
+}
+
+.m-rtext3_3{
+	position: absolute;
+	top: 483px;
+	left: 817px;
+	font-size: 12.3px;
+	letter-spacing: -0.1PX;
+}
+
+.m-rtext3_4{
+	position: absolute;
+	top: 503px;
+	left: 817px;
+	font-size: 12px;
+	letter-spacing: 0.1px;
+}
